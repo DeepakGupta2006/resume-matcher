@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity # type: ignore
 
 st.set_page_config(page_title="Resume ↔ Job Match Score", page_icon="📄", layout="centered")
 
-# ---------- Helpers ----------
+
 
 STOPWORDS = set("""
 a an the and or but if while is are was were be been being to of in on for with
