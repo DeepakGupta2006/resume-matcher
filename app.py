@@ -52,7 +52,6 @@ def compute_match(resume_text: str, jd_text: str):
     return round(score * 100, 1), missing[:15]
 
 
-# ---------- UI ----------
 
 st.title("📄 Resume ↔ Job Description Matcher")
 st.write(
